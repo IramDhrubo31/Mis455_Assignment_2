@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navSection ul{
+    list-style-type: circle;
+    padding: 10px 5px 10px 5px;
+    font-size: 24px;
+    overflow: hidden;
+    background-color: #333;
+}
+.navSection li{
+    float: right;
+}
+.navSection li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navSection li a:hover{
+    background-color: chartreuse;
+}
+.navSection img{
+    position: absolute;
+    top: 0%;
+    left: 20px;
+    height: 70px;
+}
+.bodyContent{
+    padding: 50px 180px 50px 180px;
+    
+}
+.bodyContent h2{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 28px;
+}
+.gamesInGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 180px 0px 180px;
+}
+.gamesInGrid img{
+    width: 500px;
+    height: 250px;
+}
+.gamesInGrid p{
+    font-size: 16px;
+    text-align: left;
+    margin: 10px 0px 10px 0px;
+    padding-right: 90px;
+}
+
+.price{
+    color: darkcyan;
+    font-size: 24px;
+}
+.viewButton{
+    padding: 8px 16px 8px 16px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-color: slategray;
+    border-width: 4px;
+}
+
+.purchase{
+    padding: 50px 180px 0px 180px;
+    
+}
+.purchase h2{
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+#paymentInfo{
+    background-color: cyan;
+    padding: 20px;
+}
+
+#paymentSuccessBox{
+    background-color: cyan;
+    padding: 20px;
+}
+
+
+#footer{
+    text-align: center;
+    background-color: #1f1f1f;
+    color: #b6b6b6;
+    padding: 30px;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+#grayColor{
+    color: gray;
+}

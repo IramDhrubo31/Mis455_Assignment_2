@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Hoyoverse</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="navSection">
+        <ul>
+            <li><a href="page2.html">HONKAI</a></li>
+            <li><a href="Page1.html">GENSHIN</a></li>
+            <li><a href="index.html">HOME</a></li>
+        </ul>
+        <img src="images/Hoyoverse Image.png" alt="">
+    </div>
+    
+    <div class="bodyContent">
+        <h2>About HoYoverse</h2>
+        <p>At HoYoverse, we are committed to creating immersive virtual world experiences for players around the world. In addition to game products such as Genshin Impact and Honkai Games (Honkai Impact 3rd, and Honkai: Star Rail). Adhering to our mission of Tech Otakus Save the World, we have always been committed to technology research and development, exploring cutting-edge technologies, and have accumulated leading technical capabilities in cartoon rendering, artificial intelligence, cloud gaming technology, and other fields. HoYoverse is actively engaged in globalization, with offices in Singapore, Montreal, Los Angeles, Tokyo, Seoul, and other areas.</p>
+    </div>
+
+    <div class="gamesInGrid">
+
+        <div class="">
+            <img src="images/genshin.jpeg" alt="">
+            <h1>GENSHIN IMPACT</h1>
+            <p>Genshin Impact is an open-world action RPG with “gacha” mechanics. It is developed and published by Chinese studio miHoYo. In it, players control a number of party members, each with different abilities, weapons, gear, and personalities. The combat plays out in real time, allowing players to utilize ranged, melee, and elemental attacks against a wide array of enemies across the game’s open world and dungeons.Genshin Impact is an online-only adventure that heavily leans into story and multiplayer — with many features you’d see in popular games as a service (like daily quests, rewards, loot, and other things to keep you checking in).</p>
+            <p>PRICE: <span class="price">$19.99</span></p>
+            <a href="page1.html"><button class="viewButton">Click to View Game</button></a>
+        </div>
+        <div class="">
+            <img src="images/honkai.jpeg" alt="">
+            <h1>HONKAI IMPACT 3rd</h1>
+            <p>On earth, a catastrophe known as the "Honkai" has plagued mankind throughout history.The Honkai was created alongside civilization, and creatures known as the "Honkai beasts", deadwalkers, as well as a paranormal humanoid - The Herrscher - were born within it. To fight the Honkai invasion, mankind created an organization, called the Schicksal. This organization was assembled by mankind as a means of resistance against the Honkai. Its creation also marked the beginning of a war, an eternal battle where no side has claimed victory. The fighting has continued to this day.Up until year 2013, when the 3rd Honkai War broke out in eastern Nagazora.</p>
+            <p>PRICE: <span class="price">$14.99</span></p>
+            <a href="page2.html"><button class="viewButton">Click to View Game</button></a>
+        </div>
+        <div class="">
+            <img src="images/star rail.jpeg" alt="">
+            <h1>HONKAI: STAR RAIL</h1>
+            <p>Honkai Star Rail is a newcomer-friendly turn-based RPG with an emphasis on strategic combat, exploration, and puzzle-solving. The game has a sci-fi theme and a visual style similar to previous HoYoverse games. Although the story takes place in the same galactic universe as the first Honkai game, Honkai Impact 3rd, Star Rail has its own standalone story. The characters are a mix of familiar and new faces.As Star Rail’s protagonist, you’ve been implanted with a Stellaron, a seed of ruin. The guy responsible for your predicament is Destruction, an Aeon (godlike creature) who believes that all civilization should be wiped out. Luckily, that won’t stop you from boarding the Astral Express and travelling through Star Rail’s universe. You’re not alone either; a group of passengers claiming to have inherited the “spirit of the Trailblaze” will join you on your adventures. </p>
+            <p>PRICE: <span class="price">$12.99</span></p>
+            <a href="page2.html"><button class="viewButton">Click to View Game</button></a>
+        </div>
+    </div>
+
+    <div class="purchase">
+        <h2>Purchase Game</h2>
+        <p>To purchase a game, fill out the following paymment procedure:</p><br>
+        <div id="paymentInfo">
+            Enter your First Name:
+            <input id="firstNameBox" type="text"><br><br>
+            Enter your Last Name:
+            <input id="lastNameBox" type="text"><br><br>
+            Enter your Contact Number:
+            <input id="contactBox" type="text"><br><br>
+            Enter your Email Address:
+            <input id="emailBox" type="text"><br><br>
+            Enter the name of the game you want to buy:
+            <input id="gameBox" type="text"><br><br>
+            **Payment Method is Bkash only(Agent Number: 01XXXXXXXXX). Once you pay the game price in Bkash, enter the transaction ID. <br><br>
+            Enter Transaction ID:
+            <input id="trxidBox" type="text"><br><br>
+            <button onclick="buyGame()">Click To Purchase</button>
+        </div>
+        <div id="paymentSuccessBox">
+            Once you click confirm button, you will buy the game.
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>All right reserved <span id="grayColor">IRAM AHMED DHRUBO @<u>2020877</u></span></p>
+    </div>
+    
+
+    <script src="index.js"></script>
+    
+    
+</body>
+</html>
